@@ -28,9 +28,9 @@
 
 > 在开始之前，需要先安装 Serverless Devs 开发者工具：`npm install @serverless-devs/s -g`，更多安装方法，可以参考[Serverless Devs 安装文档](https://www.serverless-devs.com/serverless-devs/install) ，针对阿里云还需要配置密钥信息，配置密钥信息的方法可以参考[阿里云密钥配置文档](https://www.serverless-devs.com/fc/config)
 
-- 初始化项目：`s init start-keep-warm-fc -d start-keep-warm-fc`    
+- 初始化项目：`s init layer-fc-public-module -d layer-fc-public-module`    
     > 涉及到确定密钥的选择、服务名称的确定、函数名称的确定以及容器镜像的确定    
-- 进入项目：`cd start-keep-warm-fc`
+- 进入项目：`cd layer-fc-public-module`
 - 部署项目：`s deploy -y`
 - 调用函数：直接使用 POST 或者 GET 方法 curl 部署项目时候生成自定义域名
 
