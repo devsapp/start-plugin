@@ -18,4 +18,21 @@ s init start-keep-warm-fc
 s init website-vuepress
 ```
 
+### [layer-fc](https://github.com/devsapp/layer-fc/tree/master/src)
+
+方便的使用[层](https://help.aliyun.com/document_detail/193057.html) 管理您的函数。主要解决种场景问题
+
+1. 项目公共依赖包
+
+快速体验：
+```
+s init layer-fc-public-module
+```
+
+2. 自定义customRuntime版本
+
+快速体验：
+```
+s init layer-fc-custom-runtime
+```
 
